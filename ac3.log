@@ -1,0 +1,43 @@
+2020-10-16T19:21:40.181567+00:00 app[api]: Initial release by user matheus13.richard@hotmail.com
+2020-10-16T19:21:40.181567+00:00 app[api]: Release v1 created by user matheus13.richard@hotmail.com
+2020-10-16T19:21:40.288774+00:00 app[api]: Enable Logplex by user matheus13.richard@hotmail.com
+2020-10-16T19:21:40.288774+00:00 app[api]: Release v2 created by user matheus13.richard@hotmail.com
+2020-10-16T19:22:36.000000+00:00 app[api]: Build started by user matheus13.richard@hotmail.com
+2020-10-16T19:23:01.914178+00:00 app[api]: Deploy 3cf3ccf2 by user matheus13.richard@hotmail.com
+2020-10-16T19:23:01.914178+00:00 app[api]: Release v3 created by user matheus13.richard@hotmail.com
+2020-10-16T19:23:01.931542+00:00 app[api]: Scaled to web@1:Free by user matheus13.richard@hotmail.com
+2020-10-16T19:23:06.704912+00:00 heroku[web.1]: Starting process with command `python t8.py`
+2020-10-16T19:23:09.673185+00:00 app[web.1]: * Serving Flask app "t8" (lazy loading)
+2020-10-16T19:23:09.673284+00:00 app[web.1]: * Environment: production
+2020-10-16T19:23:09.673351+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-16T19:23:09.673456+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-16T19:23:09.673498+00:00 app[web.1]: * Debug mode: off
+2020-10-16T19:23:09.691218+00:00 app[web.1]: * Running on http://0.0.0.0:43230/ (Press CTRL+C to quit)
+2020-10-16T19:23:10.000000+00:00 app[api]: Build succeeded
+2020-10-16T19:23:11.243626+00:00 heroku[web.1]: State changed from starting to up
+2020-10-16T19:23:24.738834+00:00 app[web.1]: 10.71.199.143 - - [16/Oct/2020 19:23:24] "GET / HTTP/1.1" 200 -
+2020-10-16T19:23:24.740503+00:00 heroku[router]: at=info method=GET path="/" host=defac3py.herokuapp.com request_id=cfabde4b-101a-438f-9f6c-d5546a508360 fwd="187.182.16.87" dyno=web.1 connect=1ms service=4ms status=200 bytes=187 protocol=https
+2020-10-16T19:23:25.150720+00:00 app[web.1]: 10.71.199.143 - - [16/Oct/2020 19:23:25] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-16T19:23:25.154117+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=defac3py.herokuapp.com request_id=44b46ab2-7865-4252-9e6c-e741268eec60 fwd="187.182.16.87" dyno=web.1 connect=2ms service=39ms status=404 bytes=379 protocol=https
+2020-10-16T19:34:37.000000+00:00 app[api]: Build started by user matheus13.richard@hotmail.com
+2020-10-16T19:35:02.313175+00:00 app[api]: Release v4 created by user matheus13.richard@hotmail.com
+2020-10-16T19:35:02.313175+00:00 app[api]: Deploy 907329a9 by user matheus13.richard@hotmail.com
+2020-10-16T19:35:02.476924+00:00 heroku[web.1]: Restarting
+2020-10-16T19:35:02.491029+00:00 heroku[web.1]: State changed from up to starting
+2020-10-16T19:35:03.906229+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2020-10-16T19:35:04.019618+00:00 heroku[web.1]: Process exited with status 143
+2020-10-16T19:35:06.593304+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-16T19:35:10.000000+00:00 app[api]: Build succeeded
+2020-10-16T19:35:10.538567+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-16T19:35:10.538639+00:00 app[web.1]: * Environment: production
+2020-10-16T19:35:10.538687+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-16T19:35:10.538736+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-16T19:35:10.538811+00:00 app[web.1]: * Debug mode: off
+2020-10-16T19:35:10.610748+00:00 app[web.1]: * Running on http://0.0.0.0:34480/ (Press CTRL+C to quit)
+2020-10-16T19:35:11.102870+00:00 heroku[web.1]: State changed from starting to up
+2020-10-16T19:35:24.057728+00:00 app[web.1]: 10.7.214.204 - - [16/Oct/2020 19:35:24] "GET / HTTP/1.1" 200 -
+2020-10-16T19:35:24.065465+00:00 heroku[router]: at=info method=GET path="/" host=defac3py.herokuapp.com request_id=cfdd74dd-a60d-470e-898d-03cd3084ce65 fwd="187.182.16.87" dyno=web.1 connect=1ms service=32ms status=200 bytes=566 protocol=https
+2020-10-16T19:42:48.828310+00:00 app[web.1]: 10.30.205.3 - - [16/Oct/2020 19:42:48] "GET / HTTP/1.1" 200 -
+2020-10-16T19:42:48.835679+00:00 heroku[router]: at=info method=GET path="/" host=defac3py.herokuapp.com request_id=fe171b34-d688-4d19-85ae-7ceba06b7290 fwd="187.182.16.87" dyno=web.1 connect=0ms service=128ms status=200 bytes=566 protocol=https
+2020-10-16T19:42:49.530373+00:00 app[web.1]: 10.30.205.3 - - [16/Oct/2020 19:42:49] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-16T19:42:49.533187+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=defac3py.herokuapp.com request_id=e16fe9f7-d863-4a24-83f1-f703b002ab99 fwd="187.182.16.87" dyno=web.1 connect=0ms service=335ms status=404 bytes=379 protocol=https
