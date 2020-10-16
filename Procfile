@@ -1,1 +1,1 @@
-web: python t8.py
+web: python primos.py
